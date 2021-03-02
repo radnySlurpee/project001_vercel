@@ -1,0 +1,83 @@
+.intro-container{
+    position: relative;
+    height: 100vh;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: -5px;
+    
+    .intro-content{
+        background: #ffffff;  /* fallback for old browsers */
+        color: #08070D;
+
+        .intro-context-text{
+            margin: 20px 67px 40px 67px;
+            font-size: calc(13px + 0.5vw);
+
+            .bouncing-icon{
+                transform: rotate(-90deg);
+            }
+
+            h1{
+                font-family: ShareTechMono; 
+                font-size: calc(25px + 2vw);
+                display: flex;
+            }
+        }
+
+        .intro-content-logo{
+            position: absolute;
+            bottom: 30px;
+            left: 50px;
+
+            button{
+               font-size: 8em;
+               background-color: transparent;
+               border: none;
+               user-select: none;
+               outline: none;
+               color: #ffffff;
+               letter-spacing: 0.5em;
+               text-shadow: 6px 6px #161E31;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+
+            .intro-content-logo{
+                position: absolute;
+                bottom: 20px;
+
+                button{
+                    font-size: 5em;
+                    letter-spacing: 0.3em;
+                }
+            }
+
+        }
+
+        @media screen and (max-width: 576px) {
+
+            .intro-content-logo{
+                position: absolute;
+                bottom: 20%;
+                left: 20%;
+
+                button{
+                    font-size: 5em;
+                    letter-spacing: 0.4em;
+                }
+            }
+
+        }
+    }
+
+    .intro-image{
+        background-image: url('../../assets/images/grad.jpg');
+        background-size: cover;
+        background-position: top;
+        width: 100%;
+        min-height: 400px;
+        height: 100%;
+    }
+}
+

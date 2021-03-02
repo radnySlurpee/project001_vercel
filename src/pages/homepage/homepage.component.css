@@ -1,0 +1,53 @@
+.homepage-container{
+    background-color:transparent;
+    user-select: none;
+    font-family: Futura;
+
+}
+
+.posterImage1{
+    padding-top: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first-text-row{
+    margin-top: 200px;
+    height: 300px;
+    font-family: Poppins;
+    letter-spacing: 3px;
+    font-size: 2em;
+    text-align: center;
+    width: fit-content;
+}
+
+.portfolio-text{
+    margin-top: 150px;
+    width: 100%;
+    font-family: Monoton;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 5em;
+}
+
+.footer-padding{
+    text-align: center;
+    padding: 50px;
+}
+
+
+/* Responsiveness */
+
+@media only screen and (max-width: 991px) {
+
+    .first-text-row{
+        margin-top: 100px;
+        height: 200px;
+        min-width: 300px;
+        font-family: Poppins;
+        letter-spacing: 3px;
+        font-size: 1em;
+        text-align: center;
+    }
+}
